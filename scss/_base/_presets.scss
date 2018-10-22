@@ -1,0 +1,53 @@
+/* Presets
+   ========================================================================== */
+
+body {
+  background: $color_light-bg;
+  color: $color_black-lighter;
+  font-family: $font-stack_default;
+  font-size: 16px;
+  line-height: 1.8;
+  -webkit-font-smoothing: antialiased;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1.5em;
+  font-size: 0.9em;
+}
+
+ul {
+  margin-top: 0;
+  margin-bottom: 1.5em;
+}
+
+a {
+  font-size: 0.9em;
+  text-decoration: none;
+  color: #ff6600;
+
+  &:link {
+    text-decoration: none;
+  }
+
+  &:visited {
+    text-decoration: none;
+  }
+
+  &:hover {
+    text-decoration: underline;
+    color: #ff6600;
+  }
+
+  &:active {
+    text-decoration: underline;
+  }
+}
+
+p > a { font-size: inherit; }
+
+hr {
+  height: 0;
+  padding: 0;
+  margin: 3em 0;
+}

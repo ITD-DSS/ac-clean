@@ -1,0 +1,15 @@
+/* ==========================================================================
+   Helper Classes
+   ========================================================================== */
+
+.adobe-reader {
+  margin-top: 8px;
+
+  @media (max-width: $screen-sm) {
+    float: none !important;
+  }
+	
+	img {
+			margin-bottom: 5px;
+	}
+}
